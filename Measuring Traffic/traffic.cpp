@@ -7,6 +7,7 @@
 #include <unordered_map>
 #include <queue>
 #include <unordered_set>
+#include <cstdint>
 using namespace std;
 vector<int> findInterval(vector<vector<int>> &list, unordered_set<int> &ons) {
     int lower = INT8_MIN;
